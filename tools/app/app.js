@@ -4,7 +4,7 @@ const axios = require('axios');
 const fs = require('fs');
 const eisdk = require('./ei_sdk');
 
-const TG_TOKEN =  process.env.TG_TOKEN ||''; 
+const TG_TOKEN =  process.env.TG_KEY ||''; 
 const TG_CHAT_ID = process.env.TG_CHAT_ID ||'';
 let bot; 
 const ENABLE_MOTION = process.env.ENABLE_MOTION ||'';

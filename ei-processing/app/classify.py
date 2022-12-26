@@ -185,7 +185,7 @@ def train_data():
         filename = request.json["filename"]
         key = None
 
-        if caption == 'snapshot' or caption == 'motion':
+        if caption == 'Snapshot' or caption == 'Motion':
             key = "{filename}".format(filename=filename)
         else:
             key = "{filename}.ei.jpg".format(filename=filename)
